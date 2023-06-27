@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="icon"type="type/x-icon"href="message.png">
+    <title>Contact page</title>
+</head>
+<body>
+    <button onclick="myfun()">
+        Theme
+    </button>
+   <h1>Contact-Us</h1> 
+   <p>-------------------------</p>
+   <br>
+   <br>
+   <div class="B">
+    <form action="https://formsubmit.co/shevyofficial2003@gmail.com" method="POST"> 
+    <br>
+    <br>
+    <label for="name">Name :</label>
+    <input type="text" placeholder="Enter your name"id="name"name="name" pattern ="[a-z A-Z]{2,13}"required>
+    <br>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter your email" id="email"name="email" pattern = "[a-z A-Z 0-9]{8,12}[@][g][m][a][i][l][.][c][o][m]"required>
+  <br>
+  <br>
+    <label for="Query">Feedback/Query :</label>
+    <br>
+    <br>
+    <textarea type="text" placeholder="Feedback/Query"row="3"value="feedback" id="Query"name="feedback"required></textarea>
+    <br>
+    <br>
+    <button type="submit">Submit</button>
+   </form>
+   </div>
+ <div class="footer">
+<details>
+    <summary> Built With 🖤 </summary>
+    <p>By Shevy</p>
+</details>
+ </div>
+ <script>
+  function myfun(){
+   var element= document.body;
+      element.classList.toggle('black');
+  }
+ </script>
+</body>
+</html>
