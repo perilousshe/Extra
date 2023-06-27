@@ -1,0 +1,76 @@
+*{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    
+}
+
+p{
+    line-height:0px;
+}
+#Query{
+    
+   padding:20px;
+}
+.B{
+    border-style:dashed;
+    height:300px;
+    width:300px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    animation-name:move;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+input{
+    border-style: dashed;
+Outline:none;
+}
+input:hover{
+    background-color: rgb(173, 169, 169);
+    animation-name:move;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@keyframes move{
+   
+    0%{
+       border-color:white;
+    }
+    25%{
+       border-color:black;
+    }
+    50%{
+       border-color:white;
+    
+    }
+    75%{
+       border-color:black;
+    }
+    100%{
+        border-color:white;
+    }
+}
+textarea:hover{
+    background-color: rgb(173, 169, 169);
+    animation-name:move;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+textarea{
+    border-style: dashed;
+     Outline:none;
+}
+.footer{
+    background-color: black;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    color: white;
+    left:0;
+
+}
+.black{
+ background-color:black;
+    color:white;
+}
